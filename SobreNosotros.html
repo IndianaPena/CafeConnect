@@ -1,218 +1,160 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Framework7</title>
-<link href="css/framework7.bundle.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaffeConnect</title>
+    <link href="css/framework7.bundle.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-	
-	<div id="app">
-			
-		<section class="panel panel-left panel-cover">
-		
-			<div id="perfil" class="block">
-				<img src="img/img/profile.png" alt="">
-				<h4>Esteban Orellana</h4>
-				<p>Animador 3D</p>
-			</div>
-			
-			<div class="list media-list">
-				<ul>
-					<li>
-						<a href="index.html" class="item-link item-content panel-close">
-						  <div class="item-media">
-							<span class="material-icons">home</span>
-						  </div>
-						  <div class="item-inner">
-							<div class="item-title">Home</div>
-						  </div>
-						</a>
-					  </li>
-					<li>
-					  <a href="/products/" class="item-link item-content panel-close">
-						<div class="item-media">
-						  	<span class="material-icons">sell</span>
-						  </div>
-						<div class="item-inner">
-						  <div class="item-title">Products</div>
-						</div>
-					  </a>
-					</li>
-					<li>
-					  <a href="#" class="item-link item-content">
-						<div class="item-media">
-						  	<span class="material-icons">question_answer</span>
-						  </div>
-						<div class="item-inner">
-						  <div class="item-title">Messages</div>
-						</div>
-					  </a>
-					</li>
-					<li>
-					  <a href="#" class="item-link item-content">
-						<div class="item-media">
-						  	<span class="material-icons">notifications</span>
-						  </div>
-						<div class="item-inner">
-						  <div class="item-title">Notifications</div>
-						</div>
-					  </a>
-					</li>
-					<li>
-					  <a href="#" class="item-link item-content">
-						<div class="item-media">
-						  	<span class="material-icons">bookmark</span>
-						  </div>
-						<div class="item-inner">
-						  <div class="item-title">Bookmarks</div>
-						</div>
-					  </a>
-					</li>
-					<li>
-					  <a href="#" class="item-link item-content">
-						<div class="item-media">
-						  	<span class="material-icons">account_circle</span>
-						  </div>
-						<div class="item-inner">
-						  <div class="item-title">Profile</div>
-						</div>
-					  </a>
-					</li>
-				</ul>
-			</div>
-			
-		
-		</section>
-		
-		
-	<div class="view view-main view-init">
-
-	<section data-name="home" class="page">
-
-	  <!-- Top Navbar -->
-	  <nav class="navbar">
-		<div class="navbar-bg"></div>
-		<div class="navbar-inner">
-			<a href="/home/"><img src="img/img/CafeConnect_Blanco.png" alt=""></a>
-			
-			<div class="right">
-				<a href="#" class="link panel-open" data-panel="left">
-					<i class="material-icons">menu</i>
-				</a>
-			</div>
-		</div>
-	  </nav>
-
-		
-    <section class="page-content">
-        <div id="welcome" class="block">
-           <h2 class="titulo-seccion" style="text-align: center;">Sobre Nosotros</h2>
-            <p class="ubicacion">Tegucigalpa</p>
-
-            <!-- Botones de pestañas -->
-            <div class="tabs">
-                <button>Misión</button>
-                <button>Visión</button>
-                <button >Historia</button>
+    <div id="app">
+        <div class="panel panel-left panel-cover">
+            <div id="perfil" class="block">
+                <img src="img/img/profile.png" alt="">
+                <h4>Esteban Orellana</h4>
+                <p>Animador 3D</p>
             </div>
-
-            <!-- Contenido de cada pestaña -->
-            <div class="card">
-                <img src="img/img/nuestroequipo.png" alt="Nuestro Equipo" class="img-fluid">
-                <div class="card-content">
-                    <h2 class="titulo-seccion">Nuestro Equipo</h2>
-                    <p id="texto-card">
-                        Nuestro equipo de expertos en café combina pasión y experiencia para ofrecerte la mejor taza en cada preparación.
-                        Seleccionamos granos de alta calidad, cuidamos cada detalle del proceso y perfeccionamos cada técnica para resaltar
-                        los aromas y sabores únicos de cada café. ¡Déjanos sorprenderte con una experiencia inigualable en cada sorbo!
-                    </p>
-                </div>
+            <div class="list media-list">
+                <ul>
+                    <li><a href="index.html" class="item-link item-content panel-close"><div class="item-media"><span class="material-icons">home</span></div><div class="item-inner"><div class="item-title">Home</div></div></a></li>
+                    <li><a href="products.html" class="item-link item-content panel-close"><div class="item-media"><span class="material-icons">sell</span></div><div class="item-inner"><div class="item-title">Products</div></div></a></li>
+                </ul>
             </div>
         </div>
-    </section>
-
+        
+        <div class="view view-main view-init">
+            <section data-name="home" class="page">
+                <nav class="navbar">
+                    <div class="navbar-bg"></div>
+                    <div class="navbar-inner">
+                        <img src="img/img/CafeConnect_Blanco.png" alt="">
+                        <div class="right">
+                            <a href="#" class="link panel-open" data-panel="left">
+                                <i class="material-icons">menu</i>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+                
+                <section class="page-content">
+                    <div id="welcome" class="block">
+                        <h2 class="titulo-seccion" style="text-align: center;">Sobre Nosotros</h2>
+                        <p class="ubicacion">Tegucigalpa</p>
+                        <div class="tabs">
+                            <button onclick="mostrarContenido('mision', event)">Misión</button>
+                            <button onclick="mostrarContenido('vision', event)">Visión</button>
+                            <button onclick="mostrarContenido('historia', event)">Historia</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/img/nuestroequipo.png" alt="Nuestro Equipo" class="img-fluid">
+                            <div class="card-content">
+                                <h2 id="titulo-card" class="titulo-seccion">Nuestro Equipo</h2>
+                                <p id="texto-card">Nuestro equipo de expertos en café combina pasión y experiencia para ofrecerte la mejor taza en cada preparación.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Accordion Section -->
+                    <div class="block-title">Acerca de Nosotros</div>
+                    <div class="list accordion-list">
+                        <ul>
+                            <li class="accordion-item">
+                                <a class="item-content item-link" href="#">
+                                    <div class="item-inner">
+                                        <div class="item-title">Indiana Peña</div>
+                                    </div>
+                                </a>
+                                <div class="accordion-item-content">
+                                    <div class="block">
+                                        <p>Brand y Marketing Manager: Desarrolla estrategias de marca, maneja las redes sociales y crea campañas para atraer y fidelizar clientes.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="accordion-item">
+                                <a class="item-content item-link" href="#">
+                                    <div class="item-inner">
+                                        <div class="item-title">María José Elvir</div>
+                                    </div>
+                                </a>
+                                <div class="accordion-item-content">
+                                    <div class="block">
+                                        <p>Store Manager: Supervisa las operaciones diarias, gestiona el equipo y asegura una experiencia excepcional para los clientes.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="accordion-item">
+                                <a class="item-content item-link" href="#">
+                                    <div class="item-inner">
+                                        <div class="item-title">Brian Estrada</div>
+                                    </div>
+                                </a>
+                                <div class="accordion-item-content">
+                                    <div class="block">
+                                        <p>Head Barista: Responsable de la preparación de bebidas, creación de recetas exclusivas y mantenimiento de los estándares de calidad del café.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="accordion-item">
+                                <a class="item-content item-link" href="#">
+                                    <div class="item-inner">
+                                        <div class="item-title">Nataly Guerra</div>
+                                    </div>
+                                </a>
+                                <div class="accordion-item-content">
+                                    <div class="block">
+                                        <p>Customer Experience Specialist: Asegura un servicio al cliente de primera, gestiona las relaciones con los clientes y crea un ambiente acogedor.</p>
+                                    </div>
+                                </div>
+                            </li>
+							<li class="accordion-item">
+                                <a class="item-content item-link" href="#">
+                                    <div class="item-inner">
+                                        <div class="item-title">Janel Sierra</div>
+                                    </div>
+                                </a>
+                                <div class="accordion-item-content">
+                                    <div class="block">
+                                        <p>Inventory & Supply Coordinator: Administra el inventario, coordina los pedidos de insumos y garantiza que todo esté listo para el funcionamiento diario.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </section>
+            </section>
+        </div>
+        
+        <nav class="toolbar tabbar tabbar-labels toolbar-bottom">
+            <div class="toolbar-inner">
+                <a href="index.html" class="link"><i class="material-icons">home</i><span class="tabbar-label">Home</span></a>
+                <a href="products.html" class="link"><i class="material-icons">favorite</i><span class="tabbar-label">Favorite</span></a>
+                <a href="#" class="link"><i class="material-icons">shopping_basket</i><span class="tabbar-label">Cart</span></a>
+                <a href="#" class="link"><i class="material-icons">account_circle</i><span class="tabbar-label">Profile</span></a>
+            </div>
+        </nav>
+    </div>
+    
+    <script src="js/framework7.bundle.min.js"></script>
     <script>
-        function mostrarContenido(seccion) {
-            // Definir el contenido de cada pestaña
+        var app = new Framework7({ root: '#app', theme: 'md' });
+        
+        function mostrarContenido(seccion, event) {
             let contenido = {
-                "mision": {
-                    "titulo": "Nuestra Misión",
-                    "texto": "Nuestra misión es ofrecer café de alta calidad con procesos sostenibles y un servicio excepcional."
-                },
-                "vision": {
-                    "titulo": "Nuestra Visión",
-                    "texto": "Buscamos ser la referencia en café artesanal, innovando con nuevas técnicas y sabores únicos."
-                },
-                "historia": {
-                    "titulo": "Nuestra Historia",
-                    "texto": "Desde nuestros inicios, hemos trabajado con pasión para llevar el mejor café a nuestros clientes."
-                }
+                "mision": { "titulo": "Nuestra Misión", "texto": "Nuestra misión es ofrecer café de alta calidad." },
+                "vision": { "titulo": "Nuestra Visión", "texto": "Buscamos ser la referencia en café artesanal." },
+                "historia": { "titulo": "Nuestra Historia", "texto": "Desde nuestros inicios, hemos trabajado con pasión." }
             };
-
-            // Actualizar el contenido de la tarjeta
+            
             document.getElementById("titulo-card").innerText = contenido[seccion].titulo;
             document.getElementById("texto-card").innerText = contenido[seccion].texto;
-
-            // Actualizar el estado activo de los botones
-            let botones = document.querySelectorAll(".tab");
-            botones.forEach(btn => btn.classList.remove("active"));
+            document.querySelectorAll(".tabs button").forEach(btn => btn.classList.remove("active"));
             event.target.classList.add("active");
         }
     </script>
-
-</body>
-</html>
-
-
-
-	</section> <!--/page -->
-		
-		<!-- toolbar -->
-		
-		<nav class="toolbar tabbar tabbar-labels toolbar-bottom">
-			<div class="toolbar-inner">
-				<a href="/home/" class="link">
-					<i class="material-icons">home</i>
-					<span class="tabbar-label">Home</span>
-				</a>
-				<a href="/products/" class="link">
-					<i class="material-icons">favorite</i>
-					<span class="tabbar-label">Favorite</span>
-				</a>
-				<a href="/Comprar/" class="link">
-					<i class="material-icons">shopping_basket</i>
-					<span class="tabbar-label">Cart</span>
-				</a>
-				<a href="#" class="link">
-					<i class="material-icons">account_circle</i>
-					<span class="tabbar-label">Profile</span>
-				</a>
-			</div>
-		</nav>
-				
-		
-		<!-- /toolbar -->
-		
-	</div><!--/view -->
-		
-		
-		
-	</div><!--/app -->
-	
-	
-	<script src="js/framework7.bundle.min.js"></script>
-	<script src="js/app.js"></script>
-	
-	
-	
-	
-	
 </body>
 </html>
 
